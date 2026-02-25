@@ -1,11 +1,15 @@
 body {
     margin: 20px;
+    font-family: Verdana, "Segoe UI", Tahoma, Geneva, sans-serif;
 }
 
 
 
 .avatar {
     width: 150px;
+    height: auto;
+    object-fit: cover;
+    object-position: 65% center;
 }
 
 .bl-dotted-border {
@@ -19,8 +23,11 @@ body {
     display: flex;
     justify-content: space-around;
     text-align: center;
-    color: #2b2839;
-    background-color: #ddebf8;
-    border-bottom: 5px solid #d8cefe;
+    color: #fb8500;
+    background: #edede9;
+    border-bottom: 6px solid #023047;
 }
+
+
+
 
