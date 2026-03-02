@@ -12,8 +12,9 @@ Also, consider how you should select the image
 body {
     text-align: center;
     font-family: "Happy Monkey", system-ui;
-    background: #a2d2ff;
+    /* background: #a2d2ff; */
     color: #ffffff;
+    background: linear-gradient(#a2d2ff, pink);
 }
 
 #header {
@@ -46,7 +47,9 @@ body {
     border-radius: 5px;   
 }
 
-#gift-section {
+
+/* Gift section */
+.gift-section {
     margin-top: 50px;
 }
 
@@ -68,15 +71,42 @@ body {
     margin: 0 auto;
 }
 
-.gift-img:hover {
-    width: 405px;
-    height: 405px;
+#gift-img-happy:hover {
+    background-image: url(images/happy.gif);
 }
 
+#gift-img-hot:hover {
+    background-image: url(images/hot.gif);
+}
 
+#gift-img-genius:hover {
+    background-image: url(images/genius.gif);
+}
 
+#gift-img-badass:hover {
+    background-image: url(images/badass.gif);
+}
 
+#gift-img-cheers {
+    height: 200px;
+}
 
+#gift-img-cheers:hover {
+    background-image: url(images/cheers.gif);
+}
+/* Gift section end */
+
+/* Footer start */
+#footer-h3 {
+    width: 400px;
+    margin: 30px auto 20px auto;
+    font-style: italic;
+}
+
+a {
+    color: #ffffff;   
+}
+/* Footer end */
 
 
 
